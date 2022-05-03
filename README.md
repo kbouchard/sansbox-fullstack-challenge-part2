@@ -15,7 +15,7 @@ Reference: https://stedolan.github.io/jq/
 
    1. Remove any "faulty deals" (deals without a `dealID`).
    2. Output only the following properties from the deals: `dealID, info, template, activity, variables, users`. (summarize the deals to these fields only, remove the rest)
-   3. Order them by their `updated` value (timestamp).
+   3. Order them by their `info.updated` value (timestamp).
    4. Copy the output into a file named `deals.json`.
 
 ## Part 2 : React
